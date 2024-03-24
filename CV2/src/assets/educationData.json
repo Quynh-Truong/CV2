@@ -1,0 +1,19 @@
+{
+    "education": [
+        {
+            "school": "Chas Academy",
+            "education": "Fullstack .NET",
+            "date": "2023-2025"
+        },
+        {
+            "school": "Lunds Universitet",
+            "education": "English",
+            "date": "2009-2010"
+        },
+        {
+            "school": "Linnéskolan, Hässleholm",
+            "education": "Social science program, focus on society",
+            "date": "2004 - 2007"
+        }
+    ]
+}

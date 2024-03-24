@@ -1,0 +1,52 @@
+{
+    "experience": [
+        {
+            "workplace": "Lindex, Stockholm",
+            "role": "Sales advisor",
+            "description": "Job consisting of working individually, but also working in teams. Customer assistance requires one's ability to understand what they are looking for.",
+            "date": "2019-03-01 – ongoing"
+        },
+        {
+            "workplace": "Cervera, Stockholm",
+            "role": "Sales advisor",
+            "description": "",
+            "date": "2018-10-16 – 2019-02-28"
+        },
+        {
+            "workplace": "Krogh Optikk, Oslo",
+            "role": "Optical assistent/ sales advisor",
+            "description": "Work could be mentally demanding, because of the technichal aspects. Problem solvning and logical thinking, was important.",
+            "date": "2017-12-04 – 2018-08-31"
+        },
+        {
+            "workplace": "IKEA Furuset, Oslo - Decoration",
+            "role": "Sales advisor",
+            "description": "Worked at different departments at IKEA, which meant a lot of knowledge aquirement and knowledge sharing. Keeping track of things, having structure and being able to prioritize was important, because of the daily big quantities of restock/shortages/errors in stock. Being stress resistant, was also needed. Had responsibility of stocks.",
+            "date": "2017-05-01 – 2017-12-09"
+        },
+        {
+            "workplace": "IKEA Furuset, Oslo - Children's dep.",
+            "role": "Specialist/sales advisor",
+            "description": "I was also a specialist here. The job entailed overseeing sales numbers.",
+            "date": "2016-11-08 – 2017-04-30"
+        },
+        {
+            "workplace": "IKEA Furuset, Oslo - Storage",
+            "role": "Sales advisor",
+            "description": "",
+            "date": "2015-07-01 – 2016-11-07"
+        },
+        {
+            "workplace": "IKEA Furuset, Oslo - IKEA Food",
+            "role": "Sales advisor",
+            "description": "",
+            "date": "2013-10-01 – 2015-06-30"
+        },
+        {
+            "workplace": "Restaurang Yun Lee, Eslöv",
+            "role": "Waiter",
+            "description": "",
+            "date": "2012-11-30 – 2013-06-30"
+        }
+    ]
+}

@@ -1,0 +1,500 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+h1
+{
+  font-family: Fredoka, Arial, sans-serif;
+  text-align: center;
+}
+
+h3,
+h4 {
+  font-family: "Roboto Slab", Georgia, serif;
+}
+
+p {
+  font-family: "Roboto Slab", Georgia, serif;
+}
+
+body {
+  padding: 2rem;/* fixed rollbar */
+  /* //----    ----DARKMODE  ----    ----// */
+  transition: background-color 0.5s ease;
+  background-color: white;
+
+}
+
+.dark-mode {
+  background-color: #333;
+  color: white;
+} 
+
+.dark-mode .quynh {
+  color: #97cea3;
+}
+
+body p {
+  line-height: 1.5rem;
+}
+
+body ul li {
+  list-style-type: none;
+/*     margin: 1rem; */
+}
+
+
+/* --------------------INDEX/ABOUT----------------------- */
+.content {
+  display: flex;
+  justify-content: center;
+  padding: 5rem;
+}
+
+
+.quynh {
+  color: #601F32;
+}
+
+.bear-toggle {
+  max-width: 100%;
+  height: auto;
+  cursor: pointer;
+  padding-right: 0rem;
+}
+
+.content .col1,
+.content .col2 {
+  flex: 1;
+
+}
+
+::selection {
+  color: #000;
+  background-color: #601F32;
+
+}
+
+header {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding: 1em 10%
+  
+}
+
+
+
+
+/* -----------------------MENU/NAV------------------------ */
+nav {
+  gap: 1;
+}
+
+header ul {
+  display: flex;
+  list-style-type: none;
+  
+
+}
+
+header ul li {
+  padding: 1em 1.5em;
+  margin: 0.5rem;
+
+}
+
+header a {
+  color: black;
+  font-family: Roboto, Arial, sans-serif;
+  font-size: 1.2rem;
+  font-weight: 400;
+  text-decoration: none;
+  background-color: white;
+  border: 3px solid #3C3B3F;
+  border-radius: 10px;
+  padding: 0.5rem 1rem;
+  transition: all 0.2s ease-in-out;
+}
+
+nav a:hover,
+nav a:focus {
+  color: white;
+  background-color: #127D67;
+  border: 3px solid #127D67;
+
+}
+
+a.active {
+  color: #127D67;
+  background-color: white; /* knäpp */
+  border: 1px solid #127D67;
+  border-radius: 10px;
+  padding: 0.5rem 1rem;
+
+}
+
+#burger-bars {
+  display: none;
+}
+
+.ham-menu {
+  display: none;
+  margin-top: 10%;
+  cursor: pointer; /* Won't work */
+}
+
+
+
+/* -----------------EXPERIENCE/EDUCATION------------------ */
+.date {
+  font-style: italic;
+}
+
+.experience {
+  display: flex;
+}
+
+
+.experience .col1,
+.experience .col2 {
+  flex: 1;
+}
+
+
+
+/* .experience .col2 p,
+.education .col2 p {
+  margin: 0.4rem;
+}
+ */
+
+ .experience p,
+ .education p {
+    margin: 0.4rem;
+ }
+
+.glasses {
+  display: flex;
+
+  max-width: 100%;
+  height: auto;
+  margin-top: 2rem;
+}
+
+.experience .col2 h3,
+.education .col2 h3 {
+  margin-top: 0rem;
+} 
+
+.experience .col2,
+.education .col2 {
+  list-style-type: none;
+  padding: 1rem;
+}
+
+.education {
+  padding: 1rem 3rem;
+  display: flex;
+}
+
+.education li {
+  padding: 0.5rem;
+}
+
+.education .col1 {
+  flex: 2;
+}
+
+/* moved gif a bit to the side */
+.education .col2 {
+  flex: 1;
+}
+
+
+/* --------------------------PORTFOLIO--------------------- */
+.portfolio {
+
+  font-family: "Roboto Slab", Georgia, serif;
+  text-align: center;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+ /*  flex-direction: column; */
+  align-items: center;
+}
+
+/* .project1,
+.project2 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 40vw;
+  border: 2px solid black;
+  border-radius: 15px;
+  padding: 1rem;
+  margin: 1rem;
+} */
+
+
+
+.portfolio a {
+  text-decoration: none;
+  color: black;
+  margin-bottom: 0em;
+}
+
+.portfolio h3 {
+  margin-bottom: 0rem;
+}
+
+.portfolio .card {
+  margin: 1rem;
+  border: 2px dashed #3C3B3F;
+  border-radius: 14px; 
+}
+
+/* .musiccat,
+.laptop {
+  max-width: 40vw;
+  height: auto;
+  border-radius: 10px;
+  margin-bottom: 1rem;
+} */
+
+
+/* .modal1,
+.modal2 {
+  display: none;
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 1;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0,0,0,0.5);
+}
+
+.modal1-fact,
+.modal2-fact {
+  background-color: white;
+  margin: 20% auto;
+  width: 60%;
+  padding: 1rem;
+  border: 5px dashed #3C3B3F;
+  border-radius: 14px;
+} */
+
+/* :target {
+  display: block;
+}
+
+.close {
+  color: #4a4646;
+  float: right;
+  font-size: 2rem;
+  font-weight: bold;
+}
+ */
+/* .close:hover,
+.close:focus {
+  color: black;
+  text-decoration: none;
+  cursor: pointer;
+} */
+
+.portfolio button {
+  font-family: Roboto, Arial, sans-serif;
+  border: 2px solid black;
+  padding: 0.7rem;
+  border-radius: 14px;
+  margin: 0.5rem;
+}
+
+.portfolio button:hover,
+.portfolio button:focus {
+  color: white;
+  background-color: #127D67;
+  border: 2px solid #127D67;
+}
+
+/* ----------------------CONTACT------------------ */
+.hello{
+
+  max-width: 100%;
+  height: auto;
+  display: flex;
+  justify-content: center;
+}
+
+.contact {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+
+
+/* -----fix this, cannot see error----- */
+.best {
+  color: #127D67;
+}
+
+
+
+/* -------------------------------------FOOTER--------------------------- */
+footer {
+  margin-top: 1rem;
+  background-color: #3C3B3F;
+  color: white;
+  width: 100%;
+  height: 9rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+footer .logos {
+  margin-top: 1rem;
+  display: flex;
+  gap: 2rem;
+  font-size: 2rem;
+}
+
+footer .logos i {
+  color: white;
+}
+
+
+footer p {
+  font-family: Roboto, Arial, sans-serif;
+  line-height: 1.6rem;
+  font-size: 1rem;
+  text-align: center;
+}
+
+footer h3 {
+  font-family: Roboto, Arial, sans-serif;
+  text-align: center;
+}
+
+footer .envelope:hover,
+footer .envelope:focus,
+footer .linkedin:hover,
+footer .linkedin:focus {
+  background-color: #127D67;
+}
+
+
+
+@media (max-width: 650px) {
+  .ham-menu {
+      display: block;
+      position: absolute;
+      right: 5%;
+      font-size: 1.5rem;
+      z-index: 1;
+  }
+
+  .menu {
+      display: flex;
+      flex-direction: column;
+      position: fixed;
+      z-index: 1;
+      left: 0;
+      right: 0;
+      top: 0;
+      bottom: 100%;
+      text-align: end;
+      background-color: rgba (0,0,0,0.2);
+      overflow: hidden;
+
+  }
+
+  #burger-bars:checked ~ .menu {
+      background-color: rgba (0,0,0,0.1);
+      padding-top: 6em;
+      bottom: 0;
+  }
+}
+
+/* if screen is smaller than */
+@media (max-width: 550px) {
+  .experience,
+  .education {
+      flex-direction: column;
+  }
+
+  .experience .col1,
+  .experience .col2,
+  .education .col1,
+  .education .col2 {
+      width: 100%;
+      padding: 1rem;
+  }
+}
+
+@media (min-width: 551px)  and (max-width: 850px) {
+  .experience,
+  .education {
+      display: flex;
+      flex-wrap: wrap;
+  }
+}
+
+
+
+@media (min-width: 651px) {
+  .content {
+      padding: 0rem 20em;
+      display: flex;
+      align-items: center;
+  }
+
+  .bear {
+      max-width: 50%;
+      height: auto;
+  }
+
+  .ham-menu {
+      display: none;
+  }
+
+  header nav {
+      display: flex;
+  }
+
+  header ul {
+      display: flex;
+  }
+
+  header ul li {
+      margin: 0 0.5em;
+  }
+}
+
+
+/*HARD TO ADJUST SIZING*/
+@media (min-width: 300px) and (max-width: 650px) {
+  .content {
+      padding: 0rem 1rem;
+      display: flex;
+      align-items: center;
+  }
+}
+
+@media print {
+  body {
+      font-size: 12px;
+  }
+
+  header,
+  footer {
+      display: none;
+  }
+}
+
