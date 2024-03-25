@@ -13,7 +13,7 @@ function App() {
 
   return (
     <>
-      <BrowserRouter>
+      <BrowserRouter basename="cv2">
         <Header />
         <Routes>
           <Route path="/" element={<About />} />
