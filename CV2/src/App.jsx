@@ -13,10 +13,11 @@ function App() {
 
   return (
     <>
-      <BrowserRouter>
+      <BrowserRouter basename="/CV2">
         <Header />
         <Routes>
           <Route path="/" element={<About />} />
+          <Route index element={<About />} />
           <Route path="/experience" element={<Experience />} />
           <Route path="/education" element={<Education />} />
           <Route path="/portfolio" element={<Portfolio />} />
