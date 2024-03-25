@@ -172,7 +172,13 @@ a.active {
 
  .experience p,
  .education p {
-    margin: 0.4rem;
+    margin: 0.6rem;
+ }
+
+ .experience h3,
+ .education  h3 {
+    margin-top: 1.5rem;
+    margin-bottom: 0.2rem;
  }
 
 .glasses {
@@ -183,10 +189,10 @@ a.active {
   margin-top: 2rem;
 }
 
-.experience .col2 h3,
+/* .experience .col2 h3,
 .education .col2 h3 {
   margin-top: 0rem;
-} 
+}  */
 
 .experience .col2,
 .education .col2 {
